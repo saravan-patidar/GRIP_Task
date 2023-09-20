@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="/script.js" defer></script>
+    <title> Transfer Money </title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="https://static.vecteezy.com/system/resources/thumbnails/013/948/616/small/bank-icon-logo-design-vector.jpg"
+                alt="Logo">
+        </div>
+        <ul class="nav-items">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="customers.html">View All Customers</a></li>
+            <li><a href="./transfer_money.html">Transfer Money</a></li>
+            <li><a href="./view_transactions.html">View All Transcation</a></li>
+        </ul>
+    </nav>
+    <section class="header">
+        <h2 class="heading">Transfer Money !-!</h2>
+        <div class="flex">
+            <div class="box">
+                <img src="./user_1177568.png" alt="">
+                <label for="sender">Sender</label>
+                <select name="sender" id="senderList">
+                    <!-- <option value="1">sarvn
+                    </option>
+                    <option value="2">spatidar
+                    </option>
+                    <option value="3">jane smith
+                    </option>
+                    <option value="4">john dier
+                    </option> -->
+                </select>
+            </div>
+
+            <div class="box2">
+                <img src="./earn-money_1184721.png" alt="">
+                <label for="amount">Amount</label>
+                <input type="number" id="amount" name="amount" min="0" step="0.01" required>
+
+                <button id="button">Transfer</button>
+            </div>
+
+            <div class="box">
+                <img src="./user_1177568.png" alt="">
+                <label for="receiver">Receiver</label>
+                <select name="receiver" id="receiverList">
+                    <!-- <option value="2">harry
+                    </option>
+                    <option value="1">spatidar
+                    </option>
+                    <option value="3">jane smith
+                    </option>
+                    <option value="4">john dier
+                    </option> -->
+                </select>
+            </div>
+
+        </div>
+    </section>
+    <footer>
+        <p>@2023 Saravan Patidar</p>
+    </footer>
+</body>
+
+</html>
